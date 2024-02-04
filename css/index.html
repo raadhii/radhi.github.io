@@ -1,0 +1,160 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+
+<html>
+<title>AbdurrahmanArrody</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<body>
+<div class="w3-container">
+<div class="w3-black">
+ <img src="club.jpg" width="100%" height="60%">
+</div>
+<div class="w3-bar w3-black">
+ <button class="w3-bar-item w3-button" onclick="openKota('tentang')">Tentang</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('sejarah')">Sejarah</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('album')">Album</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('favorit')">Lagu Favorit</button>
+	<div class="w3-dropdown-hover">
+	<button class="w3-button">Profile Anggota</button>
+		<div class="w3-dropdown-content w3-bar-block w3-card-4">
+			<button class="w3-bar-item w3-button" onclick="openKota('left')">Vokalis</button>
+			<button class="w3-bar-item w3-button" onclick="openKota('opacity')">Gitaris & vokalis</button>
+			<button class="w3-bar-item w3-button" onclick="openKota('right')">Bass</button>
+			<button class="w3-bar-item w3-button" onclick="openKota('opacity1')">Drummer</button>
+		</div>
+	</div>
+ <button class="w3-bar-item w3-button w3-right" onclick="openKota('about')">About Me</button>
+ 
+</div>
+ <div id="left" class="w3-container kota w3-animate-left" style="display:none">
+  <center><h2>Vokalis</h2>
+ <img src="vokalis.jpg" width=25% height=40%></center>
+ <p>Fathia Izzati Saripudin adalah Pengacara, YouTuber, penyanyi, penulis lagu, aktris, dan penyiniar berkebangsaan Indonesia. Fathia merupakan vokalis dari grup musik Reality Club.<p/>
+ <p>Fathia lahir di Jakarta pada 26 September 1994 dari ibu bernama Zulfanah dan ayah bernama Mohamad Hery Saripudin yang bekerja sebagai diplomat. Ia merupakan anak kedua dari tiga bersaudara dengan kakak bernama Faiz Novascotia Saripudin dan adik Farisha Aqilah Saripudin. Ia menghabiskan masa kecilnya di berbagai negara seperti Afrika Selatan, Kanada, dan Amerika Serikat, hal ini dikarenakan pekerjaan ayahnya yang merupakan seorang diplomat yang pernah menjabat sebagai Konsul Jenderal RI di Jeddah, Arab Saudi. Fathia menyatakan tidak mudah menjadi anak seorang diplomat karena harus mampu beradaptasi dengan cepat di berbagai belahan dunia. Sering kali, ia menghabiskan waktu selama 3-4 tahun di luar negeri karena tugas dari sang ayah. Tidak hanya itu, ia harus mempelajari ritual meja sejak kecil.</p>
+ <p>Selama di Indonesia, Fathia menempuh pendidikan formal di sekolah negeri. Ia sekolah di SMP Negeri 19 Jakarta dan SMA Negeri 82 Jakarta. Fathia melanjutkan pendidikan di Fakultas Hukum Universitas Indonesia dan lulus pada tahun 2018. Setelah lulus, ia sempat bekerja di sebuah firma hukum di tengah kesibukannya sebagai YouTuber dan vokalis grup musik. Namun ia tidak melanjutkan pekerjaannya.</p>
+ </div>
+ <div id="opacity" class="w3-container kota w3-animate-opacity" style="display:none">
+ <center><h2>Gitaris & vokalis</h2>
+ <img src="gitaris.jpg" width=25% height=40%></center>
+ <p>Faiz Novascotia Saripudin adalah seorang musisi dan penyanyi asal Indonesia yang juga merupakan vokalis, gitaris dan penulis lagu dari grup musik Reality Club.</p>
+ <p>Faiz lahir di Nova Scotia, Kanada pada 14 Juni 1993 dari ibu bernama Zulfanah dan ayah bernama Mohamad Hery Saripudin yang bekerja sebagai diplomat. Ia merupakan anak pertama dari empat bersaudara dengan adik bernama Fathia Izzati Saripudin, Farahdiena Saripudin, dan Farisha Aqilah Saripudin. Ia menghabiskan masa kecilnya di berbagai negara seperti Afrika Selatan, Kanada, dan Amerika Serikat, hal ini dikarenakan pekerjaan ayahnya yang merupakan seorang diplomat yang pernah menjabat sebagai Konsul Jenderal RI di Jeddah, Arab Saudi dan sekarang menjabat sebagai Duta Besar Republik Indonesia untuk Kenya.</p>
+ 
+ </div>
+ <div id="right" class="w3-container kota w3-animate-right" style="display:none">
+ <center><h2>Bass</h2>
+ <img src="bass.jpeg" width=25% height=40%></center>
+ <p>Nugi Wicaksono, Gitaris Bas of Reality Club</p>
+ <p>Basis berzodiak gemini ini merupakan penggemar dari sastrawan Indonesia Sapardi Djoko Damono. Nugi dikenal sebagai member yang paling humoris dan ekspresif di antara para member.</p>
+ </div>
+ <div id="opacity1" class="w3-container kota w3-animate-opacity" style="display:none">
+ <center><h2>Drummer</h2>
+ <img src="dramer.jpg" width=25% height=40%></center>
+ <p>Era Patigo, Drummer of Reality Club.</p>
+ <p>Drummer yang memiliki mantan paling banyak di antara member lain ini juga sempat menempuh pendidikan di universitas yang sama dengan Fathia dan Faiz. Selain itu, ia juga merupakan mahasiswa berprestasi yang menyumbangkan medali emas baseball di ajang pertandingan PON 2016.</p>
+ </div>
+
+<div id="tentang" class="w3-container kota w3-animate-zoom" style="display:none">
+ <center><img src="reality.webp" width=70% height=90%></center>
+ <p>Reality Club merupakan grup musik indie rock asal Indonesia tepatnya berada di Jakarta yang dibentuk pada 16 April 2016. Grup musik ini digawangi oleh Fathia Izzati yang juga seorang youtuber.</p>
+ <p>Awalnya, grup musik ini terbentuk oleh Fathia Izzati, Era Patigo dan Mayo Falmonti pada 2016. Namun kemudian, Fathia mengajak kakaknya, Faiz Novascotia Saripudin dan Iqbal Anggakusumah untuk bergabung. Namun sayang, Mayo memutuskan untuk keluar setelah enam bulan terbentuk karena kesibukan pribadi dan digantikan Nugi Wicaksono.</p>
+</div>
+
+<div id="sejarah" class="w3-container kota w3-animate-bottom" style="display:none">
+ <h2>Sejarah Reality Club</h2>
+ <p>Para pencinta musik indie, terutama dari kalangan milenial, mungkin tidak asing dengan band satu ini. Reality Club, salah satu band indie beraliran rock asal Indonesia yang beranggotakan lima orang yaitu Fathia Izzati, Nugi Wicaksono, Iqbal Anggakusumah, Era Patigo, dan Faiz Novascotia Saripudin.</p>
+ <p>Band yang dibentuk pada 2016 ini sukses melahirkan karya musik yang berkualitas hingga melebarkan sayap ke luar negeri. Band yang dibentuk pada 2016 ini sukses melahirkan karya musik yang berkualitas hingga melebarkan sayap ke luar negeri.</p>
+ <p>Hingga kemudian Mayo yang mengajak Fathia dan Era untuk membentuk band. Dia lalu mengajak kakaknya, Faiz, serta temannya, Iqbal, untuk ikut bergabung. Karena kesibukan lain, Mayo memutuskan untuk keluar dari band dan digantikan oleh Nugi. Sebelum dikenal seperti saat ini, Reality Club pernah tampil di panggung sepi penonton. Saat ini, mereka telah menelurkan dua album yaitu “Never Get Better” pada 2017 dan “What Do You Really Know?” pada 2019.</p>
+ <p>Salah satu hit Reality Club adalah Is It The Answer? yang berhasil mengantarkan mereka menjadi nominasi dua penghargaan Anugerah Musik Indonesia (AMI) 2018 sebagai Pendatang Baru Terbaik dan Karya Produksi Alternatif/Alternatif Rock Terbaik. Beberapa lagu mereka yang cukup populer di antaranya Elastic Hearts, Alexandra, SSR, Telenovia, dan yang terbaru berjudul The Rush.</p>
+ <p>Pada 2019, Reality Club berhasil menyelesaikan tur mereka di beberapa daerah di Indonesia termasuk Bali, Palembang, dan  Makassar. Tak hanya itu, mereka juga sukses tur di negara tetangga seperti Malaysia dan Singapura.</p>
+ <p>Di tahun 2020 mereka juga berencana tampil di acara festival musik tahunan yang diadakan di Austin, Texas, Amerika Serikat bertajuk South by Southwest (SXSW), namun terpaksa batal karena pandemi.</p>
+</div>
+
+<div id="album" class="w3-container kota" style="display:none">
+ <h1>Album Reality Club</h1>
+ <hr>
+ <h3>Never Get Better (2017)</h3><img src="album.jpeg" width=20% height=35%>  
+ <p>Daftar lagu dari album ini:</p> 
+ <ul>
+	<li>Things I Don't Know</li>
+	<li>Shouldn't End This Way</li>
+	<li>Cursive Curses</li>
+	<li>Fatal Attraction </li>
+	<li>Hesitation</li>
+	<li>Okay</li>
+	<li>Mentors A Graceful Retreat</li>
+	<li>For Lack Of A Better Word</li>
+	<li>Is It The Answer?</li>
+	<li>Never Get Better</li>
+	<li>Epilogue</li>
+ </ul>
+ <h3>What do You Really Know? (2019)</h3><img src="album2.jpeg" width=20% height=35%>
+ <p>Daftar lagu dari album ini:</p>
+ <ul>
+	<li>Prologue</li>
+	<li>SSR</li>
+	<li>All Along All Things Were Wrong</li>
+	<li>Caught in a Trap</li>
+	<li>The Rush</li>
+	<li>Vita o morte</li>
+	<li>Telenovia</li>
+	<li>On My Own, Again</li>
+	<li>Alexandra</li>
+	<li>A Sorrowful Reunion</li>
+	<li>2112</li>
+ </ul>
+ <h3>reality club presents… (2023)</h3><img src="album3.jpeg" width=20% height=35%>
+ <p>Daftar lagu dari album ini:</p>
+ <ul>
+	<li>I Wish I Was Your Joke</li>
+	<li>You Let Her Go Again</li>
+	<li>Dancing In The Breeze Alone</li>
+	<li>Tell Me I’m Wrong</li>
+	<li>Desire</li>
+	<li>Arrowhead Man</li>
+	<li>Am I Bothering You?</li>
+	<li>Anything You Want</li>
+	<li>Four Summers</li>
+	<li>Love Epiphany</li>
+</div>
+
+<div id="favorit" class="w3-container kota w3-animate-zoom" style="display:none">
+<p> Reality Club mempersembahkan video musik dari single “Am I Bothering You?”, salah satu lagu yang menjadi favorit para fans dan sempat viral di TikTok ini telah didengarkan puluhan juta kali secara daring. Video musik ini dirilis melalui kanal YouTube Reality Club, pada 26 Desember 2023 lalu.</p>
+<br>
+<center>
+<p>CLICK HERE</p>
+<img src="panah.png" width=4% height=5%><img src="panah.png" width=4% height=5%><img src="panah.png" width=4% height=5%>
+<br>
+<a href="https://youtu.be/F01WN9anzWo?feature=shared"><img src="album3.jpeg" width=20% height=35%></a>
+<p>Am I Bothering You?</p></center>
+<br>
+<p>Makna dari lagu "Am I Bothering You?" sendiri memiliki arti yang sangat relate bagi para muda mudi (terutama Gen-Z) yang sedang memulai masa-masa pendekatan. Penuhnya rasa ragu untuk memulai percakapan bahkan hingga enggan untuk memulai karena memiliki rasa ketakutan.</p>
+</div>
+
+<div id="about" class="w3-container kota w3-animate-zoom" style="display:none">
+<center>
+<br>
+<img src="radhi.jpeg" width=25% height=50% div class="w3-square">
+<br>
+<br>
+<h2>MUHAMMAD ABDURRAHMAN ARRODY</h2>
+<h3>IF-11</h3>
+<h3>10123462</h3>
+<h2>Universitas Komputer Indonesia</h2>
+<a href="https://www.instagram.com/radhi12__?igsh=czhza3prMzZ3ZGM="><img src="ig.jpeg" width=4% height=5%></a>
+<a href="twit.html"><img src="twittwer.png" width=4% height=5%></a>
+
+
+
+<script>
+function openKota(namakota) {
+ var i;
+ var x = document.getElementsByClassName("kota");
+ for (i = 0; i < x.length; i++) {
+ x[i].style.display = "none";
+ }
+ document.getElementById(namakota).style.display = "block";
+}
+</script>
+</body>
+</html>
